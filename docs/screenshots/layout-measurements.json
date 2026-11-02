@@ -1,0 +1,80 @@
+{
+  "oneGeometry": [
+    {
+      "height": 1080,
+      "player": "1",
+      "width": 1920,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "twoGeometry": [
+    {
+      "height": 540,
+      "player": "1",
+      "width": 1920,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "height": 540,
+      "player": "2",
+      "width": 1920,
+      "x": 0,
+      "y": 540
+    }
+  ],
+  "threeGeometry": [
+    {
+      "height": 1080,
+      "player": "1",
+      "width": 640,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "height": 1080,
+      "player": "2",
+      "width": 640,
+      "x": 640,
+      "y": 0
+    },
+    {
+      "height": 1080,
+      "player": "3",
+      "width": 640,
+      "x": 1280,
+      "y": 0
+    }
+  ],
+  "fourGeometry": [
+    {
+      "height": 540,
+      "player": "1",
+      "width": 960,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "height": 540,
+      "player": "2",
+      "width": 960,
+      "x": 960,
+      "y": 0
+    },
+    {
+      "height": 540,
+      "player": "3",
+      "width": 960,
+      "x": 0,
+      "y": 540
+    },
+    {
+      "height": 540,
+      "player": "4",
+      "width": 960,
+      "x": 960,
+      "y": 540
+    }
+  ]
+}

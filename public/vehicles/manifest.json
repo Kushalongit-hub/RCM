@@ -1,0 +1,50 @@
+[
+  {
+    "id": "formula",
+    "name": "Formula 27",
+    "triangles": 4517,
+    "bytes": 508516
+  },
+  {
+    "id": "endurance",
+    "name": "Endurance 27",
+    "triangles": 5068,
+    "bytes": 572216
+  },
+  {
+    "id": "drift",
+    "name": "Sideways 34",
+    "triangles": 6289,
+    "bytes": 704400
+  },
+  {
+    "id": "gt3",
+    "name": "Apex 27",
+    "triangles": 5780,
+    "bytes": 649396
+  },
+  {
+    "id": "stock",
+    "name": "Stock 42",
+    "triangles": 6491,
+    "bytes": 726232
+  },
+  {
+    "id": "wedge",
+    "name": "Vektor",
+    "triangles": 5735,
+    "bytes": 644576
+  },
+  {
+    "id": "hyper",
+    "name": "Stratos",
+    "triangles": 5788,
+    "bytes": 650352
+  },
+  {
+    "id": "tourer",
+    "name": "Grand Tourer",
+    "triangles": 5735,
+    "bytes": 644572
+  }
+]

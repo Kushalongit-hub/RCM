@@ -1,0 +1,1811 @@
+{
+  "wallSeconds": 8.84,
+  "tracks": 25,
+  "newTracks": 24,
+  "pairings": 200,
+  "newPairings": 192,
+  "geometry": [
+    {
+      "id": "coastal",
+      "length": 1128,
+      "width": 19,
+      "maxGrade": 0.083,
+      "nonlocalClearance": 48.4,
+      "gates": 8
+    },
+    {
+      "id": "f1-01",
+      "length": 1350,
+      "width": 18,
+      "maxGrade": 0,
+      "nonlocalClearance": 40.2,
+      "gates": 16
+    },
+    {
+      "id": "f1-02",
+      "length": 2107,
+      "width": 22,
+      "maxGrade": 0.013,
+      "nonlocalClearance": 55.8,
+      "gates": 20
+    },
+    {
+      "id": "f1-03",
+      "length": 1856,
+      "width": 16,
+      "maxGrade": 0,
+      "nonlocalClearance": 47.5,
+      "gates": 17
+    },
+    {
+      "id": "lm-01",
+      "length": 2581,
+      "width": 24,
+      "maxGrade": 0,
+      "nonlocalClearance": 58.8,
+      "gates": 24
+    },
+    {
+      "id": "lm-02",
+      "length": 2433,
+      "width": 22,
+      "maxGrade": 0.03,
+      "nonlocalClearance": 55.9,
+      "gates": 23
+    },
+    {
+      "id": "lm-03",
+      "length": 1886,
+      "width": 26,
+      "maxGrade": 0,
+      "nonlocalClearance": 75.8,
+      "gates": 18
+    },
+    {
+      "id": "dr-01",
+      "length": 2506,
+      "width": 17,
+      "maxGrade": 0.093,
+      "nonlocalClearance": 44.6,
+      "gates": 23
+    },
+    {
+      "id": "dr-02",
+      "length": 1441,
+      "width": 24,
+      "maxGrade": 0,
+      "nonlocalClearance": 62.1,
+      "gates": 16
+    },
+    {
+      "id": "dr-03",
+      "length": 1419,
+      "width": 23,
+      "maxGrade": 0.029,
+      "nonlocalClearance": 53.9,
+      "gates": 16
+    },
+    {
+      "id": "gt-01",
+      "length": 1212,
+      "width": 22,
+      "maxGrade": 0,
+      "nonlocalClearance": 56.1,
+      "gates": 16
+    },
+    {
+      "id": "gt-02",
+      "length": 1812,
+      "width": 23,
+      "maxGrade": 0.03,
+      "nonlocalClearance": 51.7,
+      "gates": 17
+    },
+    {
+      "id": "gt-03",
+      "length": 1424,
+      "width": 22,
+      "maxGrade": 0.018,
+      "nonlocalClearance": 53.5,
+      "gates": 16
+    },
+    {
+      "id": "nc-01",
+      "length": 2183,
+      "width": 28,
+      "maxGrade": 0,
+      "nonlocalClearance": 92,
+      "gates": 20
+    },
+    {
+      "id": "nc-02",
+      "length": 854,
+      "width": 23,
+      "maxGrade": 0,
+      "nonlocalClearance": 71.7,
+      "gates": 16
+    },
+    {
+      "id": "nc-03",
+      "length": 2027,
+      "width": 29,
+      "maxGrade": 0,
+      "nonlocalClearance": 93.9,
+      "gates": 19
+    },
+    {
+      "id": "wg-01",
+      "length": 1762,
+      "width": 19,
+      "maxGrade": 0.055,
+      "nonlocalClearance": 49.5,
+      "gates": 17
+    },
+    {
+      "id": "wg-02",
+      "length": 1096,
+      "width": 18,
+      "maxGrade": 0.077,
+      "nonlocalClearance": 41.9,
+      "gates": 16
+    },
+    {
+      "id": "wg-03",
+      "length": 1717,
+      "width": 21,
+      "maxGrade": 0,
+      "nonlocalClearance": 53,
+      "gates": 16
+    },
+    {
+      "id": "hy-01",
+      "length": 3468,
+      "width": 30,
+      "maxGrade": 0,
+      "nonlocalClearance": 90.3,
+      "gates": 32
+    },
+    {
+      "id": "hy-02",
+      "length": 2296,
+      "width": 28,
+      "maxGrade": 0.013,
+      "nonlocalClearance": 88.1,
+      "gates": 21
+    },
+    {
+      "id": "hy-03",
+      "length": 2074,
+      "width": 25,
+      "maxGrade": 0.035,
+      "nonlocalClearance": 34.5,
+      "gates": 19
+    },
+    {
+      "id": "gtur-01",
+      "length": 2428,
+      "width": 23,
+      "maxGrade": 0.082,
+      "nonlocalClearance": 64.4,
+      "gates": 23
+    },
+    {
+      "id": "gtur-02",
+      "length": 2081,
+      "width": 24,
+      "maxGrade": 0.053,
+      "nonlocalClearance": 63.2,
+      "gates": 19
+    },
+    {
+      "id": "gtur-03",
+      "length": 2001,
+      "width": 24,
+      "maxGrade": 0.02,
+      "nonlocalClearance": 61.5,
+      "gates": 19
+    }
+  ],
+  "cases": [
+    {
+      "trackId": "coastal",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 48.17,
+      "gates": 9,
+      "rescueValid": true
+    },
+    {
+      "trackId": "coastal",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 48.38,
+      "gates": 9,
+      "rescueValid": true
+    },
+    {
+      "trackId": "coastal",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 48.33,
+      "gates": 9,
+      "rescueValid": true
+    },
+    {
+      "trackId": "coastal",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 48.4,
+      "gates": 9,
+      "rescueValid": true
+    },
+    {
+      "trackId": "coastal",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 48.77,
+      "gates": 9,
+      "rescueValid": true
+    },
+    {
+      "trackId": "coastal",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 48.35,
+      "gates": 9,
+      "rescueValid": true
+    },
+    {
+      "trackId": "coastal",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 48.32,
+      "gates": 9,
+      "rescueValid": true
+    },
+    {
+      "trackId": "coastal",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 48.47,
+      "gates": 9,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-01",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 57.87,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-01",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 58.22,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-01",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 58.38,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-01",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 58.33,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-01",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 58.87,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-01",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 58.13,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-01",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 58.03,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-01",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 58.33,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-02",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 68.33,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-02",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 68.73,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-02",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 69.9,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-02",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 69.2,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-02",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 69.8,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-02",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 68.68,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-02",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 68.28,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-02",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 69.03,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-03",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 74.6,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-03",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 75.03,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-03",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 75.82,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-03",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 75.37,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-03",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 76.08,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-03",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 74.98,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-03",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 74.67,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "f1-03",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 75.3,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-01",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 68.68,
+      "gates": 25,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-01",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 69.33,
+      "gates": 25,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-01",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 72.07,
+      "gates": 25,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-01",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 70.37,
+      "gates": 25,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-01",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 71.2,
+      "gates": 25,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-01",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 69.27,
+      "gates": 25,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-01",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 68.35,
+      "gates": 25,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-01",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 69.87,
+      "gates": 25,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-02",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 72.02,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-02",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 72.48,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-02",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 74.15,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-02",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 73.12,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-02",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 73.77,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-02",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 72.4,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-02",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 71.87,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-02",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 72.85,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-03",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 47.72,
+      "gates": 19,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-03",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 48.03,
+      "gates": 19,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-03",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 49.43,
+      "gates": 19,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-03",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 48.57,
+      "gates": 19,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-03",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 49.03,
+      "gates": 19,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-03",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 48,
+      "gates": 19,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-03",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 47.6,
+      "gates": 19,
+      "rescueValid": true
+    },
+    {
+      "trackId": "lm-03",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 48.33,
+      "gates": 19,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-01",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 80.92,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-01",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 81.6,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-01",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 83.13,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-01",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 82.23,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-01",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 83.15,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-01",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 81.47,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-01",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 80.93,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-01",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 82.02,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-02",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 51.13,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-02",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 51.37,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-02",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 51.75,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-02",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 51.52,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-02",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 51.93,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-02",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 51.3,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-02",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 51.22,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-02",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 51.48,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-03",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 42.67,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-03",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 42.85,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-03",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 43.3,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-03",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 43.05,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-03",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 43.38,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-03",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 42.83,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-03",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 42.7,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "dr-03",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 43.02,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-01",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 46.57,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-01",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 46.88,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-01",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 47.25,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-01",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 47.05,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-01",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 47.47,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-01",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 46.78,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-01",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 46.63,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-01",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 47.02,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-02",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 62.9,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-02",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 63.32,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-02",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 64.25,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-02",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 63.68,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-02",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 64.3,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-02",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 63.23,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-02",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 62.9,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-02",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 63.55,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-03",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 49.27,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-03",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 49.57,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-03",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 50.1,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-03",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 49.82,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-03",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 50.25,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-03",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 49.52,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-03",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 49.3,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gt-03",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 49.77,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-01",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 52.62,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-01",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 53.15,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-01",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 55.67,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-01",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 54.13,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-01",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 54.8,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-01",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 53.12,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-01",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 52.27,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-01",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 53.67,
+      "gates": 21,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-02",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 25.23,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-02",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 25.42,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-02",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 25.83,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-02",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 25.6,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-02",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 25.87,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-02",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 25.38,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-02",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 25.23,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-02",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 25.53,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-03",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 44.92,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-03",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 45.37,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-03",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 47.78,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-03",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 46.23,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-03",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 46.87,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-03",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 45.33,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-03",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 44.65,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "nc-03",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 45.82,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-01",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 58.85,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-01",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 59.12,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-01",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 59.6,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-01",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 59.3,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-01",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 59.7,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-01",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 59.07,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-01",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 58.9,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-01",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 59.27,
+      "gates": 18,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-02",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 44.6,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-02",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 44.8,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-02",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 44.95,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-02",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 44.88,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-02",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 45.27,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-02",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 44.77,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-02",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 44.68,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-02",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 44.9,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-03",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 63.25,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-03",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 63.58,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-03",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 64.42,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-03",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 63.9,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-03",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 64.47,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-03",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 63.52,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-03",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 63.25,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "wg-03",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 63.83,
+      "gates": 17,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-01",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 80.48,
+      "gates": 33,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-01",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 81.63,
+      "gates": 33,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-01",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 87.47,
+      "gates": 33,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-01",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 83.87,
+      "gates": 33,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-01",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 85.22,
+      "gates": 33,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-01",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 81.6,
+      "gates": 33,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-01",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 79.58,
+      "gates": 33,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-01",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 82.77,
+      "gates": 33,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-02",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 53.45,
+      "gates": 22,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-02",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 53.97,
+      "gates": 22,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-02",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 56.63,
+      "gates": 22,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-02",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 54.95,
+      "gates": 22,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-02",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 55.67,
+      "gates": 22,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-02",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 53.92,
+      "gates": 22,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-02",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 53.13,
+      "gates": 22,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-02",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 54.47,
+      "gates": 22,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-03",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 67.67,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-03",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 68.28,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-03",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 70.12,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-03",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 69,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-03",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 69.85,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-03",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 68.22,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-03",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 67.53,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "hy-03",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 68.72,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-01",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 62.67,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-01",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 63.27,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-01",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 65.98,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-01",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 64.27,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-01",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 65.05,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-01",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 63.22,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-01",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 62.38,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-01",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 63.82,
+      "gates": 24,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-02",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 58.47,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-02",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 58.88,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-02",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 60.57,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-02",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 59.52,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-02",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 60.13,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-02",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 58.83,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-02",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 58.35,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-02",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 59.25,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-03",
+      "vehicleId": "formula",
+      "finished": true,
+      "seconds": 63.2,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-03",
+      "vehicleId": "endurance",
+      "finished": true,
+      "seconds": 63.7,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-03",
+      "vehicleId": "drift",
+      "finished": true,
+      "seconds": 65.05,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-03",
+      "vehicleId": "gt3",
+      "finished": true,
+      "seconds": 64.28,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-03",
+      "vehicleId": "stock",
+      "finished": true,
+      "seconds": 64.95,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-03",
+      "vehicleId": "wedge",
+      "finished": true,
+      "seconds": 63.62,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-03",
+      "vehicleId": "hyper",
+      "finished": true,
+      "seconds": 63.1,
+      "gates": 20,
+      "rescueValid": true
+    },
+    {
+      "trackId": "gtur-03",
+      "vehicleId": "tourer",
+      "finished": true,
+      "seconds": 64.07,
+      "gates": 20,
+      "rescueValid": true
+    }
+  ]
+}

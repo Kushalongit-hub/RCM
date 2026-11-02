@@ -1,0 +1,17 @@
+import * as THREE from 'three';
+import {VEHICLES,vehicleSpec} from './vehicle-catalog.js';
+import {createVehicle,animateVehicle,triangleCount} from './vehicle-meshes.js';
+const $=id=>document.getElementById(id);
+VEHICLES.forEach(v=>{const o=document.createElement('option');o.value=v.id;o.textContent=v.name+' · '+v.category;$('vehicle').append(o);});
+const renderer=new THREE.WebGLRenderer({canvas:$('studio'),antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=.95;
+const scene=new THREE.Scene();scene.background=new THREE.Color('#e4e2de');scene.add(new THREE.HemisphereLight('#ffffff','#807c78',1.8));const sun=new THREE.DirectionalLight('#fff5e7',2.5);sun.position.set(-5,10,6);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-7;sun.shadow.camera.right=7;sun.shadow.camera.top=7;sun.shadow.camera.bottom=-7;sun.shadow.normalBias=.025;scene.add(sun);
+const floor=new THREE.Mesh(new THREE.PlaneGeometry(200,200),new THREE.MeshStandardMaterial({color:'#dfddd8',roughness:1}));floor.rotation.x=-Math.PI/2;floor.position.y=-.015;floor.receiveShadow=true;scene.add(floor);
+const camera=new THREE.PerspectiveCamera(35,1,.1,100);let model,spinning=false,last=0;
+const poses={'three-quarter':[6,5.1,7.7],front:[0,2,11],side:[11,2,0],rear:[0,2,-11],top:[0,12,.001]};
+function setView(){const p=poses[$('view').value];camera.position.set(...p);camera.lookAt(0,.8,0);}
+function select(){$('animate').disabled=false;document.body.classList.remove('sheet');if(model)scene.remove(model);model=createVehicle($('vehicle').value);scene.add(model);const spec=vehicleSpec($('vehicle').value);$('reference').src='/references/'+spec.id+'.png';$('meta').textContent=`${spec.name} / ${spec.category} — ${triangleCount(model).toLocaleString()} triangles · ${spec.length} m long · 4 wheel pivots · ${spec.mass} kg arcade tuning`;setView();}
+$('vehicle').onchange=select;$('view').onchange=()=>{setView();if(document.body.classList.contains('sheet'))contactSheet();};$('animate').onclick=()=>{spinning=!spinning;$('animate').textContent=spinning?'Stop wheels':'Animate wheels';};
+function contactSheet(){const selected=$('vehicle').value;$('contact').replaceChildren();for(const v of VEHICLES){if(model)scene.remove(model);model=createVehicle(v.id);scene.add(model);setView();camera.aspect=1.2;camera.updateProjectionMatrix();renderer.setSize(600,500,false);renderer.render(scene,camera);const figure=document.createElement('figure'),img=document.createElement('img'),caption=document.createElement('figcaption');img.src=$('studio').toDataURL('image/png');img.alt=v.name+' 3D model';caption.textContent=v.name;figure.append(img,caption);$('contact').append(figure);}scene.remove(model);model=createVehicle(selected);scene.add(model);}
+$('sheet').onclick=()=>{const sheet=document.body.classList.toggle('sheet');$('animate').disabled=sheet;if(sheet)contactSheet();};
+select();
+function frame(ms){const dt=Math.min(.05,(ms-last)/1000||.016);last=ms;if(spinning)animateVehicle(model,Math.sin(ms/1500)*.8,8,dt);if(!document.body.classList.contains('sheet')){const r=$('render').getBoundingClientRect();renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();renderer.render(scene,camera);}requestAnimationFrame(frame);}requestAnimationFrame(frame);

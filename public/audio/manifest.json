@@ -1,0 +1,240 @@
+[
+  {
+    "file": "stock-idle.wav",
+    "source": "Vehicle SFX Free by heyheythere; resampled to mono 24 kHz PCM, DC removed and peak limited",
+    "url": "https://heyheythere.itch.io/vehicle-sfx-free",
+    "license": "CC-BY-4.0",
+    "creator": "heyheythere",
+    "vehicleId": "stock",
+    "kind": "recorded idle loop",
+    "sampleRate": 24000,
+    "peak": 0.4314881114959717,
+    "sha256": "db3e51fd5754faa69cd990ed393da05f5c3ac25bd5b13006fb88df5388453c6d"
+  },
+  {
+    "file": "formula-loop.wav",
+    "vehicleId": "formula",
+    "baseRPM": 6000,
+    "sampleRate": 24000,
+    "peak": 0.30061994899985833,
+    "sha256": "0108fdf4d0acd28dbe8f80cc017867c480fefdcbaa3374cff00ee5ebb4bc13db",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "formula-comparison.wav",
+    "vehicleId": "formula",
+    "kind": "12s: idle, full acceleration through gears, throttle lift, braking/downshifts, idle",
+    "sampleRate": 24000,
+    "peak": 0.30375479598590177,
+    "sha256": "b5f7b9412c4f2a9eb5561ffee4fe9107b9fd1f9c303e4da5a1aa90489bbc6d39",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "endurance-loop.wav",
+    "vehicleId": "endurance",
+    "baseRPM": 6000,
+    "sampleRate": 24000,
+    "peak": 0.2879052218879071,
+    "sha256": "1474cd4acf02b4adf7f9980ae8695b7ada0e9d6c5f53b741a0a75c8ff379ec9d",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "endurance-comparison.wav",
+    "vehicleId": "endurance",
+    "kind": "12s: idle, full acceleration through gears, throttle lift, braking/downshifts, idle",
+    "sampleRate": 24000,
+    "peak": 0.30578273958818986,
+    "sha256": "7be89a17e5c6d8d98f4af5da824943f8a94068b70b582e4870302f24b3c0b3d7",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "drift-loop.wav",
+    "vehicleId": "drift",
+    "baseRPM": 6000,
+    "sampleRate": 24000,
+    "peak": 0.310272724652952,
+    "sha256": "47eb2b741be803fe0b1bd492da8a3892339c9aa13ff92822f3f0dcc5e270c35f",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "drift-comparison.wav",
+    "vehicleId": "drift",
+    "kind": "12s: idle, full acceleration through gears, throttle lift, braking/downshifts, idle",
+    "sampleRate": 24000,
+    "peak": 0.3312717207121756,
+    "sha256": "67d15962ba87715a203b65e0998dacd3e3763d5fd173edd74928e3946128504e",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "gt3-loop.wav",
+    "vehicleId": "gt3",
+    "baseRPM": 6000,
+    "sampleRate": 24000,
+    "peak": 0.29945612223455614,
+    "sha256": "ff1859162de325a863a5cafc4e8e5e5e1a10741a7fa358773c79cd881b92e9ad",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "gt3-comparison.wav",
+    "vehicleId": "gt3",
+    "kind": "12s: idle, full acceleration through gears, throttle lift, braking/downshifts, idle",
+    "sampleRate": 24000,
+    "peak": 0.323340947997082,
+    "sha256": "69361230d50160d5afcbe15e5cee92c471e2a10b56101bf1ccf70f10571fb2d3",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "stock-loop.wav",
+    "source": "Vehicle SFX Free by heyheythere; resampled to mono 24 kHz PCM, DC removed and peak limited",
+    "url": "https://heyheythere.itch.io/vehicle-sfx-free",
+    "license": "CC-BY-4.0",
+    "creator": "heyheythere",
+    "vehicleId": "stock",
+    "baseRPM": 6000,
+    "sampleRate": 24000,
+    "peak": 0.32110599772135434,
+    "sha256": "b6c288ccfb65bea14639aa258fcfe97759af80d6f636d423df827856e52f9cc9"
+  },
+  {
+    "file": "stock-comparison.wav",
+    "source": "Vehicle SFX Free by heyheythere; resampled to mono 24 kHz PCM, DC removed and peak limited",
+    "url": "https://heyheythere.itch.io/vehicle-sfx-free",
+    "license": "CC-BY-4.0",
+    "creator": "heyheythere",
+    "vehicleId": "stock",
+    "kind": "12s: idle, full acceleration through gears, throttle lift, braking/downshifts, idle",
+    "sampleRate": 24000,
+    "peak": 0.13635689351490404,
+    "sha256": "1eb47d9981679dee8956d08287de921c944e39a0d2cc1aa19c53fbefe1d28eb1"
+  },
+  {
+    "file": "wedge-loop.wav",
+    "vehicleId": "wedge",
+    "baseRPM": 6000,
+    "sampleRate": 24000,
+    "peak": 0.25319415094234676,
+    "sha256": "9e9acd1a6614302316941dcb67474095414f564c4d6398b031d58f2b33ed5e5b",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "wedge-comparison.wav",
+    "vehicleId": "wedge",
+    "kind": "12s: idle, full acceleration through gears, throttle lift, braking/downshifts, idle",
+    "sampleRate": 24000,
+    "peak": 0.2873345543050343,
+    "sha256": "8fe767912a6305f666951d42a5bb21a259e42b594c252d7248ec02db5872a15e",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "hyper-loop.wav",
+    "vehicleId": "hyper",
+    "baseRPM": 6000,
+    "sampleRate": 24000,
+    "peak": 0.29491935940597525,
+    "sha256": "b168194c95babd853275c2667f4029728ca48ebd7ae2f17c4d05a848923bbf01",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "hyper-comparison.wav",
+    "vehicleId": "hyper",
+    "kind": "12s: idle, full acceleration through gears, throttle lift, braking/downshifts, idle",
+    "sampleRate": 24000,
+    "peak": 0.31904192439930995,
+    "sha256": "ad68fefb077932a41e588a9c3b861127e33f54e9c7dd897a4d4c091f85ed33ef",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "tourer-loop.wav",
+    "vehicleId": "tourer",
+    "baseRPM": 6000,
+    "sampleRate": 24000,
+    "peak": 0.25696727266542374,
+    "sha256": "63d637b58154b67226911106116333e17865f80998ca6be18e683ac11077ab38",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "tourer-comparison.wav",
+    "vehicleId": "tourer",
+    "kind": "12s: idle, full acceleration through gears, throttle lift, braking/downshifts, idle",
+    "sampleRate": 24000,
+    "peak": 0.3000973826781887,
+    "sha256": "ac62cdd7ac8cbffcd8a1d1bb89cdee778e956ac71445b01ca9dfd1b44a276d15",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "crash.wav",
+    "kind": "shared effect",
+    "sampleRate": 24000,
+    "peak": 0.3893521878389325,
+    "sha256": "3265bb26c4c000a358ddca99279600952f2eda522573deafdde3705e097580d9",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "shift.wav",
+    "kind": "shared effect",
+    "sampleRate": 24000,
+    "peak": 0.3028329601403519,
+    "sha256": "66e29496f7346bfcd13b19ebdc359216e84cd77dfb63fd1ef261f964742d96e3",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "tire.wav",
+    "kind": "shared effect",
+    "sampleRate": 24000,
+    "peak": 0.21997876987289502,
+    "sha256": "dac7659bb37059e9a456dadae761816983c81e062d24782c24cdd2e718b86c04",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "wind.wav",
+    "kind": "shared effect",
+    "sampleRate": 24000,
+    "peak": 0.17438555562288685,
+    "sha256": "3ccf0068db9161240893e4fc7131617142bcf2b9cc3aed37450377d9acb76738",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "air.wav",
+    "kind": "shared effect",
+    "sampleRate": 24000,
+    "peak": 0.33515953862560177,
+    "sha256": "151ec369376e53575a192203ba54366f7c3114a4786546c049c300aa0e4df6ad",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "pop.wav",
+    "kind": "shared effect",
+    "sampleRate": 24000,
+    "peak": 0.2535361515799134,
+    "sha256": "51e1069ea7ac07096b6c42bc677fbe3dc8391dd422d99202c671a512cf975430",
+    "source": "Original DSP: scripts/build-audio.js + public/engine-dsp.js",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "ui-confirm.ogg",
+    "source": "Kenney Interface Sounds / Audio/confirmation_001.ogg",
+    "url": "https://kenney.nl/assets/interface-sounds",
+    "license": "CC0-1.0",
+    "creator": "Kenney",
+    "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+  }
+]

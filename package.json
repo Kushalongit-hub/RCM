@@ -1,0 +1,21 @@
+{
+  "name": "room-rally",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "assets:build": "node scripts/export-vehicles.js",
+    "audio:acquire": "node scripts/acquire-audio.js",
+    "audio:build": "node scripts/build-audio.js",
+    "tracks:build": "node scripts/export-track-maps.js",
+    "tracks:validate": "node scripts/validate-tracks.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "selfsigned": "^5.5.0",
+    "three": "^0.186.1",
+    "ws": "^8.18.3"
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "formula",
+    "hud": "P1 · Keyboard driver · Formula 27  |  POS 1LAP 1 / 30 KM/H"
+  },
+  {
+    "id": "endurance",
+    "hud": "P1 · Keyboard driver · Endurance 27  |  POS 1LAP 1 / 30 KM/H"
+  },
+  {
+    "id": "drift",
+    "hud": "P1 · Keyboard driver · Sideways 34  |  POS 1LAP 1 / 30 KM/H"
+  },
+  {
+    "id": "gt3",
+    "hud": "P1 · Keyboard driver · Apex 27  |  POS 1LAP 1 / 30 KM/H"
+  },
+  {
+    "id": "stock",
+    "hud": "P1 · Keyboard driver · Stock 42  |  POS 1LAP 1 / 30 KM/H"
+  },
+  {
+    "id": "wedge",
+    "hud": "P1 · Keyboard driver · Vektor  |  POS 1LAP 1 / 30 KM/H"
+  },
+  {
+    "id": "hyper",
+    "hud": "P1 · Keyboard driver · Stratos  |  POS 1LAP 1 / 30 KM/H"
+  },
+  {
+    "id": "tourer",
+    "hud": "P1 · Keyboard driver · Grand Tourer  |  POS 1LAP 1 / 30 KM/H"
+  }
+]

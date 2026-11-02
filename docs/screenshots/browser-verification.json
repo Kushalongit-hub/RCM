@@ -1,0 +1,112 @@
+{
+  "tracks": [
+    "Coastal Grand Prix · Original · coast · 1128 m · 19 m · Medium",
+    "Apex Circuit · Formula · park · 1350 m · 18 m · Technical",
+    "Grand Prix Park · Formula · park · 2107 m · 22 m · Medium",
+    "Skyline Street GP · Formula · city · 1856 m · 16 m · Technical",
+    "Endurance Straight · Endurance · paddock · 2581 m · 24 m · Medium",
+    "Forest 24 · Endurance · forest · 2433 m · 22 m · Medium",
+    "Aero Ring · Endurance · stadium · 1886 m · 26 m · Medium",
+    "Touge Summit · Drift · mountain · 2506 m · 17 m · Expert",
+    "Neon Dockyard · Drift · dock · 1441 m · 24 m · Technical",
+    "Canyon Carousel · Drift · canyon · 1419 m · 23 m · Medium",
+    "Club Sprint · GT3 · park · 1212 m · 22 m · Accessible",
+    "International Raceway · GT3 · paddock · 1812 m · 23 m · Medium",
+    "Rainline Circuit · GT3 · overcast · 1424 m · 22 m · Medium",
+    "Thunder Oval · Stock · stadium · 2183 m · 28 m · Accessible",
+    "Short Track Showdown · Stock · stadium · 854 m · 23 m · Accessible",
+    "Tri-Oval Speedway · Stock · stadium · 2027 m · 29 m · Accessible",
+    "Coastal Switchbacks · Wedge · coast · 1762 m · 19 m · Technical",
+    "Hillside Sprint Loop · Wedge · mountain · 1096 m · 18 m · Technical",
+    "Glass City Run · Wedge · glass · 1717 m · 21 m · Medium",
+    "Velocity Runway · Hypercar · runway · 3468 m · 30 m · Accessible",
+    "Desert Hyperloop · Hypercar · desert · 2296 m · 28 m · Medium",
+    "Midnight Express · Hypercar · expressway · 2074 m · 25 m · Medium",
+    "Alpine Grand Tour · Tourer · alpine · 2428 m · 23 m · Medium",
+    "Oceanic Highway · Tourer · coast · 2081 m · 24 m · Medium",
+    "Valley Panorama · Tourer · valley · 2001 m · 24 m · Medium"
+  ],
+  "layouts": {
+    "oneGeometry": [
+      {
+        "height": 1080,
+        "player": "1",
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "twoGeometry": [
+      {
+        "height": 540,
+        "player": "1",
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "height": 540,
+        "player": "2",
+        "width": 1920,
+        "x": 0,
+        "y": 540
+      }
+    ],
+    "threeGeometry": [
+      {
+        "height": 1080,
+        "player": "1",
+        "width": 640,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "height": 1080,
+        "player": "2",
+        "width": 640,
+        "x": 640,
+        "y": 0
+      },
+      {
+        "height": 1080,
+        "player": "3",
+        "width": 640,
+        "x": 1280,
+        "y": 0
+      }
+    ],
+    "fourGeometry": [
+      {
+        "height": 540,
+        "player": "1",
+        "width": 960,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "height": 540,
+        "player": "2",
+        "width": 960,
+        "x": 960,
+        "y": 0
+      },
+      {
+        "height": 540,
+        "player": "3",
+        "width": 960,
+        "x": 0,
+        "y": 540
+      },
+      {
+        "height": 540,
+        "player": "4",
+        "width": 960,
+        "x": 960,
+        "y": 540
+      }
+    ]
+  },
+  "worklet": "AudioWorklet active, live race: four engines for Keyboard driver; four separately bound endpoints in room",
+  "fallback": "Sample fallback active on LAN HTTP; live GT3 preset, RPM sweep and Test sound exercised",
+  "physicalPhonesTested": false
+}

@@ -1,0 +1,5 @@
+export const PAINTS=[['White','#FFFFFF'],['Black','#171717'],['Gray','#808080'],['Silver','#C0C0C0'],['Red','#E53935'],['Orange','#FB8C00'],['Yellow','#FDD835'],['Lime','#AEEA00'],['Green','#43A047'],['Teal','#00897B'],['Cyan','#00BCD4'],['Sky Blue','#42A5F5'],['Blue','#1E40AF'],['Purple','#8E24AA'],['Pink','#EC407A'],['Brown','#795548']].map(([name,hex],id)=>({id,name,hex}));
+export const paintInfo=id=>PAINTS.find(p=>p.id===id)||PAINTS[0];
+export const MODES=[{id:'circuit',name:'Circuit Race',description:'Finish the chosen number of laps first.'},{id:'time_trial',name:'Time Trial',description:'Best valid lap wins; car contact is disabled.'},{id:'drift',name:'Drift Challenge',description:'120 seconds; clean controlled drift angle, speed and combos score points.'}];
+export const defaultSettings=()=>({trackId:'coastal',mode:'circuit',laps:3});
+export function ranking(cars,mode='circuit'){return [...cars].sort((a,b)=>mode==='drift'?b.driftScore-a.driftScore:mode==='time_trial'?(a.bestLap??Infinity)-(b.bestLap??Infinity)||b.progress-a.progress:a.finished&&b.finished?a.finishTime-b.finishTime:a.finished?-1:b.finished?1:b.progress-a.progress);}
